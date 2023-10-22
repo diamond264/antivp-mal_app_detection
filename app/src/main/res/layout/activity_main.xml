@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/status_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="visible"
+        android:backgroundTint="#5ef38c"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="현황 보기" />
+
+    <Button
+        android:id="@+id/history_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_below="@id/status_button"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:visibility="visible"
+        android:backgroundTint="#5ef38c"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:text="탐지 기록 보기" />
+
+    <TextView
+        android:id="@+id/service_status_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="모니터링을 초기화 중입니다."
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:visibility="visible" />
+
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+*.pt
+gradle*
+*.ptl
+*.zip
+build*
+*.png
+*.txt
+*.wav
+*.csv
